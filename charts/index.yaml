@@ -3,7 +3,7 @@ entries:
   tailscale-subnet-router:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-11-19T01:29:46.03632+08:00"
+    created: "2022-11-19T01:33:06.487436+08:00"
     description: Deploy a Tailscale subnet router on Kubernetes
     digest: c347ed4c673651d1034d812370648b80d8cc109b581d1e8c8d60f9205d397f9d
     home: https://github.com/denis-ev/helm-charts/charts/tailscale-subnet-router
@@ -16,6 +16,6 @@ entries:
     - https://github.com/denis-ev/helm-charts/charts/tailscale-subnet-router
     type: application
     urls:
-    - https://denis-ev.github.io/helm-charts/tailscale-subnet-router-1.0.0.tgz
+    - https://evers.sh/helm-charts/tailscale-subnet-router-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-19T01:29:46.035272+08:00"
+generated: "2022-11-19T01:33:06.484929+08:00"

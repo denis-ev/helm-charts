@@ -7,7 +7,7 @@ This repository contains Denis Evers' hoard of Helm Charts.
 ## TL;DR
 
 ```bash
-$ helm repo add denis-ev https://github.com/denis-ev/helm-charts
+$ helm repo add denis-ev https://evers.sh/helm-charts
 $ helm search repo denis-ev
 $ helm install my-release denis-ev/<chart>
 ```

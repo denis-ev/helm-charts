@@ -38,7 +38,7 @@ Unless overridden, the Chart will assume that you have a Secret named `tailscale
 To install the chart with the release name `my-release`:
 
 ```console
-$ helm repo add denis-ev https://denis-ev.github.io/helm-charts
+$ helm repo add denis-ev https://evers.sh/helm-charts
 $ helm install tailscale-subnet-router denis-ev/tailscale-subnet-router
 ```
 
