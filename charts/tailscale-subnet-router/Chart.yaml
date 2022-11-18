@@ -1,0 +1,13 @@
+apiVersion: v2
+name: tailscale-subnet-router
+description: Deploy a Tailscale subnet router on Kubernetes
+type: application
+version: 1.0.0
+appVersion: "latest"
+home: https://github.com/denis-ev/helm-charts/charts/tailscale-subnet-router
+sources:
+  - https://github.com/denis-ev/helm-charts/charts/tailscale-subnet-router
+maintainers:
+  - email: github.a8umu@simplelogin.com
+    name: Denis Evers
+    url: https://evers.sh
