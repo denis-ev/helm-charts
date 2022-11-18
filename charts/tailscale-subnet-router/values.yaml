@@ -4,7 +4,7 @@ replicas: 1
 image:
   # -- **Build your own image and override this!**
   repository: ghcr.io/tailscale/tailscale
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
