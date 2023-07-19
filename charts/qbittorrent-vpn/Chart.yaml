@@ -3,7 +3,7 @@ name: qbittorrent-vpn
 description: A Helm chart for qBittorrent with OpenVPN
 type: application
 version: 1.0.1
-appVersion: "latest"
+appVersion: 1.0.1
 home: https://github.com/denis-ev/helm-charts/charts/qbittorrent-vpn
 sources:
   - https://github.com/denis-ev/helm-charts/charts/qbittorrent-vpn
