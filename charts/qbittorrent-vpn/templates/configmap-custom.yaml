@@ -1,0 +1,13 @@
+{{- if eq .Values.vpn.provider "custom" }}
+apiVersion: v1
+kind: Secret
+metadata:
+  name: {{ template "qbittorrent.fullname" . }}-vpn-config
+  labels:
+    app: {{ template "qbittorrent.fullname" . }}
+    chart: {{ template "qbittorrent.chart" . }}
+    release: {{ .Release.Name | quote }}
+    heritage: {{ .Release.Service | quote }}
+data:
+  client.ovpn: {{.Values.vpn.config | b64enc | quote }}
+{{- end }}

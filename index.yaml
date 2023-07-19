@@ -1,11 +1,29 @@
 apiVersion: v1
 entries:
+  qbittorrent-vpn:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-07-19T21:45:41.339105+08:00"
+    description: A Helm chart for qBittorrent with OpenVPN
+    digest: b59c125c9e0a6c8ec626712cd2fcf90ba7bd84d33ad0c7ad176d5e8f2ced62d7
+    home: https://github.com/denis-ev/helm-charts/charts/qbittorrent-vpn
+    maintainers:
+    - email: github.a8umu@simplelogin.com
+      name: Denis Evers
+      url: https://evers.sh
+    name: qbittorrent-vpn
+    sources:
+    - https://github.com/denis-ev/helm-charts/charts/qbittorrent-vpn
+    type: application
+    urls:
+    - https://evers.sh/helm-charts/releases/qbittorrent-vpn-1.0.1.tgz
+    version: 1.0.1
   tailscale-subnet-router:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-11-19T02:11:38.03532+08:00"
+    created: "2023-07-19T21:45:41.341474+08:00"
     description: Deploy a Tailscale subnet router on Kubernetes
-    digest: 9678572ad0699c5569bfe2d7d9b7abd7f342ef40c8025ed466d0577e7c1812e9
+    digest: 25ae796f5d007062dc36c32475295b27f93efada6087db6017493411edd456dc
     home: https://github.com/denis-ev/helm-charts/charts/tailscale-subnet-router
     maintainers:
     - email: github.a8umu@simplelogin.com
@@ -20,7 +38,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: latest
-    created: "2022-11-19T02:11:38.03448+08:00"
+    created: "2023-07-19T21:45:41.340639+08:00"
     description: Deploy a Tailscale subnet router on Kubernetes
     digest: c347ed4c673651d1034d812370648b80d8cc109b581d1e8c8d60f9205d397f9d
     home: https://github.com/denis-ev/helm-charts/charts/tailscale-subnet-router
@@ -35,4 +53,4 @@ entries:
     urls:
     - https://evers.sh/helm-charts/releases/tailscale-subnet-router-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-19T02:11:38.032571+08:00"
+generated: "2023-07-19T21:45:41.337525+08:00"

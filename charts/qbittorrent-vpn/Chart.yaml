@@ -1,0 +1,13 @@
+apiVersion: v2
+name: qbittorrent-vpn
+description: A Helm chart for qBittorrent with OpenVPN
+type: application
+version: 1.0.1
+appVersion: "latest"
+home: https://github.com/denis-ev/helm-charts/charts/qbittorrent-vpn
+sources:
+  - https://github.com/denis-ev/helm-charts/charts/qbittorrent-vpn
+maintainers:
+  - email: github.a8umu@simplelogin.com
+    name: Denis Evers
+    url: https://evers.sh
